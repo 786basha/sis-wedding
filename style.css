@@ -1,3 +1,9 @@
+
+body{
+    width: 100vw;
+    height: fit-content;
+    background-color: rgb(201, 201, 201);
+}
 .img-mubarak{
     width: 100vw;
     height: fit-content;
@@ -15,7 +21,7 @@
     height: 100vh;
     
 }
-#stills,#nalugu,#nikah{
+#haldi,#stills,#nalugu,#nikah{
     margin: 20px 0px;
     width: 50%;
     height: 65px;
@@ -23,8 +29,15 @@
     border: none;
     font-size: 25px;
 }
-#haldi{
-    margin: 20px 0px;
+
+#nalugu:hover,#nikah:hover,#stills:hover,#haldi:hover{
+    transition: .2s;
+    box-shadow: 0px 0px  20px black;
+    background-color: rgb(48, 203, 255);
+}
+
+/* #haldi{ */
+    /* margin: 20px 0px;
     width: 55%;
     height: 150px;
     border-radius: 100px;
@@ -33,7 +46,7 @@
     background-image: url('/img/halde.png');
     background-position: center;
     background-size: 100% 100%;
-}
+} */
 
 
 #nalugu span{
@@ -53,8 +66,25 @@
         align-items: center;
         margin: auto;
     }
-    
+    .links{
+        background-image: url('/img/card.jpeg');
+        background-position: center;
+        background-size: 100% 100%;
+        filter: blur(8px);
+        -webkit-filter: blur(1px);
+    }
+    .link{
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 35%;
+        left: 15%;
+    }
     #nikah,#haldi,#nalugu,#stills{
         width: 90%;
+        position: relative;
+        opacity: 0.7;
+        bottom: 50%;
+        font-weight: bolder;
     }
 }
