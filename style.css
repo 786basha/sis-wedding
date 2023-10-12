@@ -66,7 +66,10 @@ body{
         align-items: center;
         margin: auto;
     }
-    .links{
+    .img-mubarak img{
+        width: 50%;
+    }
+    /* .links{
         background-image: url('/img/card.jpeg');
         background-position: center;
         background-size: 100% 100%;
@@ -79,12 +82,13 @@ body{
         position: absolute;
         top: 35%;
         left: 15%;
-    }
+    } */
     #nikah,#haldi,#nalugu,#stills{
         width: 90%;
-        position: relative;
+        /* position: relative;
         opacity: 0.7;
         bottom: 50%;
         font-weight: bolder;
+        border: 1px solid rgb(0, 0, 41); */
     }
 }
