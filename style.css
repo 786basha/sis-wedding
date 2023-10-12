@@ -17,7 +17,7 @@
 }
 #haldi{
     margin: 20px 0px;
-    width: 75%;
+    width: 55%;
     height: 150px;
     border-radius: 100px;
     border: none;
@@ -37,7 +37,7 @@
 }
 
 @media only screen and (max-width:750px) {
-    #nikah,#haldi,#nalahu,#stills{
+    #nikah,#haldi,#nalagu,#stills{
         width: 90%;
     }
 }
