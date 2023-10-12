@@ -18,7 +18,8 @@ body{
     align-items: center;
     /* justify-content: center; */
     width: 100vw;
-    height: 100vh;
+    height: max-content;
+    margin-bottom: 10px;
     
 }
 #haldi,#stills,#nalugu,#nikah{
