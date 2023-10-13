@@ -14,3 +14,6 @@ function nalugu(){
 function nikah(){
     window.location.href='https://drive.google.com/drive/folders/14us2mm9S1RLPz0B55I-ZY0HvGUybuzyg?usp=drive_link';
 }
+function mixed() {
+    window.location.href='https://drive.google.com/drive/folders/1E2T6v_EFmcTcM9RkU4KsPPa40Iq3omVv?usp=drive_link';
+}

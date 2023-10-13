@@ -22,7 +22,7 @@ body{
     margin-bottom: 10px;
     
 }
-#haldi,#stills,#nalugu,#nikah{
+#mixed,#haldi,#stills,#nalugu,#nikah{
     margin: 20px 0px;
     width: 50%;
     height: 65px;
@@ -31,7 +31,7 @@ body{
     font-size: 25px;
 }
 
-#nalugu:hover,#nikah:hover,#stills:hover,#haldi:hover{
+#nalugu:hover,#nikah:hover,#stills:hover,#haldi:hover,#mixed:hover{
     transition: .2s;
     box-shadow: 0px 0px  20px black;
     background-color: rgb(48, 203, 255);
@@ -84,7 +84,7 @@ body{
         top: 35%;
         left: 15%;
     } */
-    #nikah,#haldi,#nalugu,#stills{
+    #nikah,#haldi,#nalugu,#stills,#mixed{
         width: 90%;
         /* position: relative;
         opacity: 0.7;
