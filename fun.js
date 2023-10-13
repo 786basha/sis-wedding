@@ -12,5 +12,5 @@ function nalugu(){
 }
 
 function nikah(){
-    window.location.href='https://drive.google.com/drive/folders/1BlnAvSUdDGn403j6GBd3iiYcJm-0v_pF?usp=drive_link';
+    window.location.href='https://drive.google.com/drive/folders/14us2mm9S1RLPz0B55I-ZY0HvGUybuzyg?usp=drive_link';
 }
